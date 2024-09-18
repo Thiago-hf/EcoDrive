@@ -8,39 +8,23 @@ body {
 }
 
 .titulo {
-    font-size: 2.5em;
+    font-size: 2em;
     font-weight: 900;
-    margin-top: 10%;
-    margin-right: 20%;
-    margin-left: 20%;
     font-family: 'Quicksand', sans-serif;
-    color: #333;
+    color: #ffffff;
 }
 
 .line {
-    border-top: 1px solid black;
-    margin-right: 20%;
-    margin-left: 20%;
+    border-top: 1px solid rgb(255, 255, 255);
 }
 
 .subtitulo {
-    font-size: 1.9em;
-    font-weight: 300;
-    margin-top: 10%;
-    margin-right: 20%;
-    margin-left: 20%;
+    font-size: 1.8em;
+    font-weight: 600;
+    margin-top: 4%;
+    text-align: center;
     font-family: 'Montserrat', sans-serif;
-    color: #333;
-}
-
-.descricao {
-    font-size: 0.85em;
-    font-weight: 400;
-    margin-top: 2%;
-    margin-right: 20%;
-    margin-left: 20%;
-    font-family: 'Montserrat', sans-serif;
-    color: #333;
+    color: #ffffff;
 }
 
 .highlightT {
@@ -51,22 +35,69 @@ body {
     font-weight: 700;
 }
 
-.botao {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 0.8em;
-    margin-top: 12%;
-    padding: 2%;
-    border-radius: 30px;
-    margin-right: 20%;
-    margin-left: 20%;
-    background-color: black;
-    color: white;
+.titulo2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    font-weight: 00;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
 }
 
-.img-fluid {
-    height: 80vh;
-    width: 23vw;
-    border-radius: 30px;
-    margin-right: 10%;
-    margin-left: 10%;
+.sobre {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3em; 
+    color: rgb(255, 0, 0); 
+    margin-top: 10%; 
+    margin-left: 5%;
 }
+
+.sobre2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8em; 
+    color: rgb(255, 255, 255); 
+    margin-top: 5%; 
+    margin-left: 5%;
+    margin-bottom: 10%;
+}
+
+.desc {
+    font-size: 2.5em;
+    font-weight: 300;
+    margin-top: 10%;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+}
+
+.desc2 {
+    font-size: 1.0em;
+    font-weight: 200;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10%;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+}
+
+.card {
+    border-radius: 30px;
+    background: lightgrey;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 50px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 26px -18px inset;
+  } 
+
+.slg {
+    display: flex;
+    font-size: 5.0em;
+    font-weight: 300;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    font-style: italic;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+}
+
+
+
+
